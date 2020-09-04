@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # NXScan v1.0
-# Coded By : NumeX....
+# Coded By : TAY....
 
-import argparse, requests, sys, re, colorama, os
+import argparse, reques, sys, re, colorama, os
 from colorama import *
 
 parser = argparse.ArgumentParser(description="{Fore.YELLOW}[--] NXScan website scanner"+Fore.RESET)
@@ -128,7 +128,7 @@ def main():
         DNSlookup()
     elif chose == 6:
         IPlocation()
-    elif chose == 7:
+    elif chose == 00:
         ELFP()
     elif chose == 0:
         sys.exit(0)
